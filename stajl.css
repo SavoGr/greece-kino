@@ -1,0 +1,33 @@
+body{
+    text-align:  center;
+    align-items: center;
+    align-content: center;
+    color:blue ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+table{
+    margin: auto;
+}
+tr{
+   
+   position: relative;
+   border: 2px solid rebeccapurple;
+}
+td{
+    border: 1px solid rebeccapurple;
+    /* border-right: 1px solid rebeccapurple; */
+}
+#triger{
+    margin: auto;
+    display: block;
+    width: 10%;
+    height: 30px;
+    background-color: palegreen;
+    color: red;
+}
+#triger:hover{
+    background-color:seagreen; 
+}
+#triger:disabled{
+    background-color: gray;
+}
